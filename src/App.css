@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+input[type='file'] {
+  display: none;
+}
+.custom-file-upload {
+  border: 1px solid dodgerblue;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-style: italic;
+  border-radius: 4px;
+  color: steelblue;
+}
+
+.custom-file-upload:hover {
+  background-color: steelblue;
+  color: cornsilk;
+  transition: all 1s;
+}
+
+.main-header {
+  text-align: center;
+  font-style: italic;
+  color: steelblue;
+}
+
+.main-parent-div-view {
+  max-width: 1000vw;
+  display: flex;
+  max-height: 1000vh;
+  gap: 1em;
+}
+
+.left-side-childDiv-screen-view {
+  max-width: 900vw;
+  min-width: 49%;
+  border-style: solid;
+  max-height: 900vh;
+  min-height: 70vh;
+  margin-top: 3em;
+  border-color: SteelBlue;
+  border-width: 2px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.left-screen-childDiv-view-main-head {
+  color: dodgerblue;
+  font-style: italic;
+}
+
+.left-chidDiv-section-view {
+  margin: 2em;
+}
+.left-screen-chidDiv-input-view {
+  border-radius: 8px;
+  padding: 5px;
+  background-color: steelblue;
+  font-style: italic;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.leftSide-screen-childDiv-show-csv-view {
+  max-width: 500vw;
+  min-width: 100%;
+  max-height: 800vh;
+  min-height: 30vh;
+  border: 1px solid dodgerblue;
+  margin: auto;
+  margin-top: 1em;
+  border-radius: 8px;
+}
+
+.OnError-left-ChildDiv-csvDataSec-head {
+  font-size: 20px;
+  font-weight: 5px;
+  font-style: italic;
+  color: red;
+  text-align: center;
+}
+
+.OnErrorF-left-ChildDiv-csvDataSec-head {
+  text-align: center;
+  color: steelblue;
+  font-style: italic;
+}
+
+.left-childDiv-pre-tag-secView {
+  margin: auto;
+  box-sizing: border-box;
+  margin-top: 1em;
+}
+
+.rightside-childDiv-view {
+  max-width: 900vw;
+  min-width: 49%;
+  max-height: 900vh;
+  min-height: 70vh;
+  border-style: solid;
+  margin-top: 3em;
+  border-color: SteelBlue;
+  border-width: 2px;
+  border-radius: 12px;
+  box-shadow: 1px 1px 2px black;
+}
+
+.right-chidDiv-main-head {
+  font-size: 30px;
+  font-weight: 5px;
+  font-style: italic;
+  color: dodgerblue;
+  text-align: center;
+}
+
+.right-chidDiv-content-head2 {
+  text-align: center;
+  font-style: italic;
+  color: red;
+  margin-top: 2em;
+}
+
+.right-chidDiv-table-view {
+  margin: auto;
+  margin-top: 2em;
+  padding: 10px;
+  border-collapse: collapse;
+  border: 1px solid steelblue;
+  font-style: italic;
+  color: dodgerblue;
+}
+.right-chidDIv-tbody-style {
+  border: 1px solid steelblue;
+}
+
+.right-childDiv-td-style {
+  border: 1px solid steelblue;
+  padding: 10px;
+  font-size: 15px;
+  color: royalblue;
+}
